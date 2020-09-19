@@ -1,7 +1,7 @@
 'use strict';
 
 export function shuffle(array) { 
-    const m = array.length;
+    let m = array.length;
     
     // While there remain elements to shuffle...
     while (m) {
@@ -15,4 +15,4 @@ export function shuffle(array) {
     }
     
     return array;
-};
+}

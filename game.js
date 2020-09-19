@@ -1,4 +1,4 @@
-import {shuffle} from "./shuffle.js";
+import {shuffle} from './shuffle.js';
 
 'use strict';
 
@@ -15,4 +15,4 @@ export class Game {
     render(element) {
         // TODO
     }
-};
+}
